@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "solarcar"
+title: "solarcar.md"
 date: 2017-04-30
 ---
 
