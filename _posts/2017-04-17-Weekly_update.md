@@ -20,6 +20,6 @@ Aero has the basic body and canopy of the car after much research on the differe
 
 <img src="{{site.url}}/images/blogpost/Lizette/IMG_0292.JPG" width="600">
 
-<img src="../images/blogpost/Lizette/IMG_0298.JPG" width="600">
+<img src="{{site.url}}/images/blogpost/Lizette/IMG_0298.JPG" width="600">
 
-<img src="../images/blogpost/Lizette/IMG_0297.JPG" width="600">
+<img src="{{site.url}}/images/blogpost/Lizette/IMG_0297.JPG" width="600">
