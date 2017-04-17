@@ -31,3 +31,8 @@ date: 2017-04-30
 ### 5. Once you are down scroll down and enter some description about the type of post you made. Then press commit.
 
 ![Image 4](images/instructions/4.png)
+
+
+##Use images
+To use images, navigate to the image folder. In there image folder should be another folder called blogpost. Go in there. Find your name of your folder. Upload an images you want into there.
+Reference the images in your blogpost md file using the syntax "![Image Description](images/blogpost/whateveryounameis/file.png)". (file.png is whatever file type you uploaded)
