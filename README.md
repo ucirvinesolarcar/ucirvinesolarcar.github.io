@@ -39,6 +39,6 @@ To use images, navigate to the image folder. In there image folder should be ano
 Reference the images in your blogpost md file using the syntax 
 
 
-    ![Image Description](../images/blogpost/whateveryounameis/file.png)
+    ![Image Description]({{ site.url }}/images/blogpost/whateveryounameis/file.png)
 
 (file.png is whatever file type you uploaded)
