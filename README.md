@@ -14,7 +14,7 @@ For Example:
 ![Image 3](images/instructions/3.png)
    
 ### 3. When you start a create a new file the following text must go first in the md file.
----
+   ---
 
 layout: post
 
@@ -22,7 +22,7 @@ title: "Building a Solar Panel"
 
 date: 2017-04-30
 
----
+   ---
 
 
 
