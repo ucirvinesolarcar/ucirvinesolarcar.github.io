@@ -10,6 +10,8 @@ For Example:
 >"2017-04-25-Building_A_Solar_Panel.md"
 
 ![Image 2](images/instructions/2.png)
+
+![Image 3](images/instructions/3.png)
    
 ### 3. When you start a create a new file the following text must go first in the md file.
 ---
@@ -23,7 +25,6 @@ date: 2017-04-30
 ---
 
 
-![Image 3](images/instructions/3.png)
 
 ### 4. Enter the information about the blog post in markdown syntax
 
