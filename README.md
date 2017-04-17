@@ -29,7 +29,7 @@ date: 2017-04-30
 
 ### 4. Enter the information about the blog post in markdown syntax
 
-### 5. Once you are down scroll down and enter some description about the type of post you made. Then press commit.
+### 5. Once you are done, scroll down and enter some description about the type of post you made. Then press commit.
 
 ![Image 4](images/instructions/4.png)
 
