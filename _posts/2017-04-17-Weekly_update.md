@@ -18,4 +18,4 @@ Chassis team have a rough model ready. They modeled the dimensions of the chassi
 Suspension has almost finished the assembly of the suspension and chassis. They’re working on steering. They plan to model brakes and enhance the dimensions. 
 Aero has the basic body and canopy of the car after much research on the different shapes and fasteners. Now they’re researching how to make molds and designing the lower body.
 
-![The Aero team's progress](../images/blogpost/Lizette/IMG_0292.JPG)
+![The Aero team's progress](../images/blogpost/Lizette/IMG_0292.JPG | width=100)
