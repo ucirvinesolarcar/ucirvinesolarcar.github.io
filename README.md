@@ -35,4 +35,4 @@ date: 2017-04-30
 
 ##Use images
 To use images, navigate to the image folder. In there image folder should be another folder called blogpost. Go in there. Find your name of your folder. Upload an images you want into there.
-Reference the images in your blogpost md file using the syntax "![Image Description](images/blogpost/whateveryounameis/file.png)". (file.png is whatever file type you uploaded)
+Reference the images in your blogpost md file using the syntax '![Image Description](images/blogpost/whateveryounameis/file.png)'. (file.png is whatever file type you uploaded)
