@@ -33,7 +33,7 @@ date: 2017-04-30
 ![Image 4](images/instructions/4.png)
 
 
-##Use images
+## Use images
 To use images, navigate to the image folder. In there image folder should be another folder called blogpost. Go in there. Find your name of your folder. Upload an images you want into there using the Upload file button in github.
 Reference the images in your blogpost md file using the syntax 
 
