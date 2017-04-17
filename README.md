@@ -11,12 +11,9 @@ For Example:
 
 layout: post
 
-
 title: "Building a Solar Panel"
 
-
 date: 2017-04-30
-
 
 ---"
 
