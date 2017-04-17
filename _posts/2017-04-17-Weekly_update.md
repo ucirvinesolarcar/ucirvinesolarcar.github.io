@@ -19,3 +19,4 @@ Suspension has almost finished the assembly of the suspension and chassis. Theyâ
 Aero has the basic body and canopy of the car after much research on the different shapes and fasteners. Now theyâ€™re researching how to make molds and designing the lower body.
 
 ![The Aero team's progress](../images/blogpost/Lizette/IMG_0292.JPG =100x40)
+<img src="IMG_0292.JPG" width="200">
