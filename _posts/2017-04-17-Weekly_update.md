@@ -18,6 +18,16 @@ Chassis team have a rough model ready. They modeled the dimensions of the chassi
 Suspension has almost finished the assembly of the suspension and chassis. They’re working on steering. They plan to model brakes and enhance the dimensions. 
 Aero has the basic body and canopy of the car after much research on the different shapes and fasteners. Now they’re researching how to make molds and designing the lower body.
 
+
+<i> Composition Team </i>
+
+The composition team is currently looking into different types of materials to create the body and chasis of our solar car from. Our team is thinking of using 6061 Aluminum for the chasis of the solar car for its light weight and as for the body we are choosing carbon fiber epoxy. 
+
+
+<i> Electrical Team </i>
+
+Our electrical team is hard at work planning out the circuit design and how to wire all parts of the car properly. Their main focus as of now is connecting the main solar panels, battery, and motor together and is currently looking at tools to accomplish such a complex task. 
+
 <img src="{{site.url}}/images/blogpost/Lizette/IMG_0292.JPG" width="600">
 
 <img src="{{site.url}}/images/blogpost/Lizette/IMG_0298.JPG" width="600">
