@@ -7,7 +7,7 @@ For Example:
 >"2017-04-25-Building_A_Solar_Panel.md"
    
 ### 3. When you start a create a new file the following text must go first in the md file.
-"---
+---
 
 layout: post
 
@@ -15,7 +15,7 @@ title: "Building a Solar Panel"
 
 date: 2017-04-30
 
----"
+---
 
 ### 4. Enter the information about the blog post in markdown syntax
 
