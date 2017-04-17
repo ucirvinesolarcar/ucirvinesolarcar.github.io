@@ -6,6 +6,7 @@ date: 2017-04-17
 
 
 <b>Week 1 Update</b>
+
 We are starting off strong with our first ever UCI Solar Car Team! We have completed our first week of meetings for the new quarter! We’ve gotten a lot done so far. We had our first interview for the SDP Fund from Boeing to see how much funding we can get. We are trying to decide on a driver, who is hopefully in the 5’2” - 5’8” range. As we design and build from scratch, join us on our awesome journey from start to finish!!!!! :~)
 
 
