@@ -1,1 +1,3 @@
-website
+#  Instruction for uploading Blog post.
+
+
