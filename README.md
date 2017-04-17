@@ -30,3 +30,4 @@ date: 2017-04-30
 
 ### 5. Once you are down scroll down and enter some description about the type of post you made. Then press commit.
 
+![Image 4](images/instructions/4.png)
