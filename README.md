@@ -6,8 +6,7 @@
 For Example:
 >"2017-04-25-Building_A_Solar_Panel.md"
 
-![Image 1]
-(/images/instructions/1.png)
+![Image 1](images/instructions/1.png)
    
 ### 3. When you start a create a new file the following text must go first in the md file.
 ---
