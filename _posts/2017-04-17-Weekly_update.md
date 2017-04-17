@@ -9,7 +9,7 @@ We are starting off strong with our first ever UCI Solar Car Team!
 We have completed our first week of meetings for the new quarter! We’ve gotten a lot done so far. We had our first interview for the SDP Fund from Boeing to see how much funding we can get. We are trying to decide on a driver, who is hopefully in the 5’2” - 5’8” range.
 
 
-<b>Mechanical Team (Aero, Suspension, Chassis)<b>
+<b>Mechanical Team (Aero, Suspension, Chassis)</b>
 
 Chassis team have a rough model ready. They modeled the dimensions of the chassis around a mock dummy. They plan to stress test and revise the framework according to the driver’s dimensions, after a driver is chosen.
 Suspension has almost finished the assembly of the suspension and chassis. They’re working on steering. They plan to model brakes and enhance the dimensions. 
