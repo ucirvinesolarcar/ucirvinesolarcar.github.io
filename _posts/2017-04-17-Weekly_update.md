@@ -7,17 +7,16 @@ date: 2017-04-17
 
 <b>Week 1 Update</b>
 
-We are starting off strong with our first ever UCI Solar Car Team! We have completed our first week of meetings for the new quarter! We’ve gotten a lot done so far. We had our first interview for the SDP Fund from Boeing to see how much funding we can get. We are trying to decide on a driver, who is hopefully in the 5’2” - 5’8” range. We plan to finish the entire solar car design by May 3rd. As we design and build from scratch, join us on our awesome journey from start to finish!!!!! :~)
+We are starting off strong with our first ever UCI Solar Car Team! We have completed our first week of meetings for the new quarter! We’ve gotten a lot done so far. We had our first interview for the SDP Fund from Boeing to see how much funding we can get. As we design and build from scratch, join us on our awesome journey from start to finish!!!!! :~)
 
 <!--more-->
 
 
 <i>Mechanical Team (Aero, Suspension, Chassis)</i>
-
-Chassis team have a rough model ready. They modeled the dimensions of the chassis around a mock dummy. They plan to stress test and revise the framework according to the driver’s dimensions, after a driver is chosen.
-Suspension has almost finished the assembly of the suspension and chassis. They’re working on steering, modeling brakes, and enhancing the dimensions for all the parts to be assemblied together.
-Aero has the basic body and canopy of the car after much research on the different shapes and fasteners. Now they’re researching how to make molds and designing the lower body.
-
+The Mechanical Team is looking to finish the entire solar car design by the end of April. In order to do this, the suspension team still needs to finish modeling brakes and steering to assembly with the chassis. The aero team also needs to complete the design of the basic body and lower body of the solar car. 
+The Chassis team have a rough model ready. They modeled the dimensions of the chassis around a mock dummy. They plan to stress test and revise the framework according to the driver’s dimensions, after a driver is chosen. They are trying to decide on a driver, who is hopefully in the 5’2” - 5’8” range.
+The Suspension team has almost finished the assembly of the suspension and chassis. They’re working on steering, modeling brakes, and enhancing the dimensions for all the parts to be assemblied together.
+The Aero team still needs to research how to create the mold for the shape of the car. So far, Aero has the basic body and canopy of the car after much research on the different shapes and fasteners.
 
 <i> Composition Team </i>
 
