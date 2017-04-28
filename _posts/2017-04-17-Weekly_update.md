@@ -33,4 +33,6 @@ Our electrical team is hard at work planning out the circuit design and how to w
 
 <img src="{{site.url}}/images/blogpost/Lizette/IMG_0297.JPG" width="600">
 
-<img src="{{site.url}}/images/blogpost/Lizette/Screen Shot 2017-04-27 at 8.01.05 PM.png" width="600">
+<img src="{{site.url}}/images/blogpost/Lizette/aero_v1.png" width="600">
+
+<img src="{{site.url}}/images/blogpost/Lizette/chassis_v1.png" width="600">
