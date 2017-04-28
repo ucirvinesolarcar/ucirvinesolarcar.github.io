@@ -27,12 +27,13 @@ The composition team is currently looking into different types of materials to c
 
 Our electrical team is hard at work planning out the circuit design and how to wire all parts of the car properly. Their main focus as of now is connecting the main solar panels, battery, and motor together and is currently looking at tools to accomplish such a complex task. 
 
-<img src="{{site.url}}/images/blogpost/Lizette/IMG_0292.JPG" width="600">
+<img src="{{site.url}}/images/blogpost/Lizette/aero_v1.png" width="600">
+<i>The aero team created the general body of the solar car.</i>
+
+<img src="{{site.url}}/images/blogpost/Lizette/chassis_v1.png" width="600">
+<i>The chassis team created the framework of the solar car using a spaceframe chassis.</i>
 
 <img src="{{site.url}}/images/blogpost/Lizette/IMG_0298.JPG" width="600">
 
+
 <img src="{{site.url}}/images/blogpost/Lizette/IMG_0297.JPG" width="600">
-
-<img src="{{site.url}}/images/blogpost/Lizette/aero_v1.png" width="600">
-
-<img src="{{site.url}}/images/blogpost/Lizette/chassis_v1.png" width="600">
