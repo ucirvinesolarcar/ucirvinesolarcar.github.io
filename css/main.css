@@ -5,6 +5,9 @@
 
 .thumb {
     margin-bottom: 30px;
+	width: 400px;
+	height: 300px;
+
 }
 
 .portrait {
@@ -13,12 +16,6 @@
 
 }
 
-.thumbnail{
-
-	width: 300px;
-	height: 400px;
-
-}
 
 body {
     padding-top: 54px;
