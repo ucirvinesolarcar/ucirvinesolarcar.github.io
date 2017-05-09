@@ -2,6 +2,12 @@
  * Copyright 2013-2017 Start Bootstrap
  */
 
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+
 body {
     padding-top: 54px;
 }
