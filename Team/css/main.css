@@ -2,9 +2,7 @@
  * Copyright 2013-2017 Start Bootstrap
  */
 
-body {
-    padding-top: 54px;
-}
+
 
 @media (min-width: 992px) {
     body {
@@ -24,4 +22,16 @@ body {
 
 .portfolio-item {
     margin-bottom: 30px;
+}
+
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
 }
