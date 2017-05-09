@@ -8,9 +8,16 @@
 }
 
 .portrait {
+   max-width:50%;
+   max-height:50%;
 
-	width: 400px;
+}
+
+.thumbnail{
+
+	width: 300px;
 	height: 400px;
+
 }
 
 body {
