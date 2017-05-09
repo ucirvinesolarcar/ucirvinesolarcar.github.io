@@ -5,8 +5,14 @@
 
 .thumb {
     margin-bottom: 30px;
-	width: 400px;
-	height: 300px;
+}
+
+
+
+.portrait{
+
+width: 450px;
+height: 250px;
 
 }
 
@@ -34,3 +40,42 @@ body {
 .portfolio-item {
     margin-bottom: 30px;
 }
+
+
+a.darken {
+    display: inline-block;
+    background: black;
+    padding: 0;
+}
+
+a.darken img {
+    display: block;
+
+    -webkit-transition: all 0.5s linear;
+       -moz-transition: all 0.5s linear;
+        -ms-transition: all 0.5s linear;
+         -o-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+}
+
+a.darken:hover img {
+    opacity: 0.6;
+
+}
+a.darken:hover p{
+  visibility: visible;
+  opacity: 1;
+}
+
+a.darken p{
+  position: absolute;
+  text-align: center;
+  line-height:200px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color:#fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
