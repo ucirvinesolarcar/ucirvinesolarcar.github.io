@@ -15,6 +15,12 @@ height: 250px;
 
 }
 
+.page-header {
+
+	text-align: center;
+
+}
+
 body {
     padding-top: 54px;
 }
@@ -78,3 +84,7 @@ a.darken p{
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
+
+visibility: hidden;
+opacity: 0;
+}
