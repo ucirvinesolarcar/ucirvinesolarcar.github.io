@@ -50,7 +50,6 @@ body {
 a.darken {
     display: inline-block;
     padding: 0;
-	background: black;
 }
 
 a.darken img {
@@ -70,6 +69,11 @@ a.darken:hover img {
 a.darken:hover p{
   visibility: visible;
   opacity: 1;
+}
+
+a.darken:after {
+    content: url(image/circle.PNG); /* no need for qoutes */
+    display: block;
 }
 
 a.darken p{
