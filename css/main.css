@@ -86,3 +86,7 @@ a.darken p{
 visibility: hidden;
 opacity: 0;
 }
+
+p {
+	font-family: 'Lato', sans-serif;
+}
