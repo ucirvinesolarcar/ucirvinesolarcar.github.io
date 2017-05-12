@@ -96,11 +96,17 @@ p {
 	float:right;
     width:25px;
 	height:25px;
+	display:inline-block;
 
 }
 
 .description
 {
+	display:inline-block;
+
+}
+
+.nameD{
 	display:inline-block;
 
 }
