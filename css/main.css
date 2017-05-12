@@ -90,3 +90,11 @@ opacity: 0;
 p {
 	font-family: 'Lato', sans-serif !important; 
 }
+
+.linkedin{
+
+	float:right;
+    width:25px;
+	height:25px;
+
+}
