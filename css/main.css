@@ -88,5 +88,5 @@ opacity: 0;
 }
 
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Lato', sans-serif !important; 
 }
