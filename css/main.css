@@ -46,6 +46,7 @@ body {
 
 a.darken {
     padding: 0;
+	display: inline-block;
 	background: black;
 }
 
@@ -68,9 +69,6 @@ a.darken:hover p{
   opacity: 1;
 }
 
-a.darken:after {
-    display: block;
-}
 
 a.darken p{
   position: absolute;
