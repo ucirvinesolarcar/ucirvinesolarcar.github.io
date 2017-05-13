@@ -112,9 +112,11 @@ p {
 .footerbot{
 	border-top: 1px solid #d5d5d5;
 	font-size: .8em;
+	margin-top: 15px;
 
 }
 .footerbot ul{
+	margin-top: 2px;
 	list-style:none;
 	font-weight:bold;
 }
