@@ -1,8 +1,7 @@
 name: UC Irvine Solar Car
 markdown: kramdown
 permalink: /Blog/:year/:month/:day/:title
-url: www.ucirvinesolarcar.com/Blog/
-
+baseurl: "www.ucirvinesolarcar.com"
 
 defaults:
   -
