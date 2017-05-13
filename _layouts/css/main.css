@@ -31,3 +31,14 @@ body {
 .portfolio-item {
     margin-bottom: 30px;
 }
+
+
+.footerbot{
+	border-top: 1px solid #d5d5d5;
+	font-size: .8em;
+
+}
+.footerbot ul{
+	list-style:none;
+	font-weight:bold;
+}
