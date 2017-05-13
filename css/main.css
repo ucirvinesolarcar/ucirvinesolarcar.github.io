@@ -116,7 +116,7 @@ p {
 
 }
 .footerbot ul{
-	margin-top: 2px;
+	margin-top: 10px;
 	list-style:none;
 	font-weight:bold;
     text-align:center; 
@@ -140,3 +140,4 @@ p {
   height:32px;
 
 }
+
