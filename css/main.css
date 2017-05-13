@@ -121,6 +121,7 @@ p {
 	font-weight:bold;
     text-align:center; 
 	float:none;
+	display:block;
 }
 .footerli{
 		display: inline;
