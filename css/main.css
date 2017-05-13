@@ -122,3 +122,8 @@ p {
 .my-4{
 	text-align: center;
 }
+
+.logo_fp{
+	max-width:100%;
+	max-height:100%;
+}
