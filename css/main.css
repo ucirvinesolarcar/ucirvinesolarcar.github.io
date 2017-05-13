@@ -103,7 +103,7 @@ p {
 .description
 {
 	display:inline-block;
-	width:200px;
+	width-max:100%;
 }
 
 .nameD{
