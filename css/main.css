@@ -29,13 +29,13 @@ body {
 
 .carousel-item {
     height: 65vh;
-    max-height: 70%;
+    max-height: 100%;
     max-width: 100%;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .portfolio-item {
