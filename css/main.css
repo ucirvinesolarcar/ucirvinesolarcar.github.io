@@ -120,6 +120,7 @@ p {
 	list-style:none;
 	font-weight:bold;
     text-align:center; 
+	float:none;
 }
 .footerli{
 		display: inline;
