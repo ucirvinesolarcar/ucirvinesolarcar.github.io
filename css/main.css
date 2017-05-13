@@ -114,3 +114,7 @@ p {
 	font-size: .8em;
 
 }
+.footerbot ul{
+	list-style:none;
+	font-weight:bold;
+}
