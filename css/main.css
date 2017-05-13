@@ -119,6 +119,11 @@ p {
 	margin-top: 2px;
 	list-style:none;
 	font-weight:bold;
+	display: block; 
+    text-align:center; 
+}
+.footerbot ul l{
+		display: inline-block;
 }
 
 .my-4{
