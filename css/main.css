@@ -109,23 +109,7 @@ p {
 
 }
 
-.footerbot{
-	border-top: 1px solid #d5d5d5;
-	font-size: .8em;
-	margin-top: 50px;
 
-}
-.footerbot ul{
-	margin-top: 10px;
-	list-style:none;
-	font-weight:bold;
-    text-align:center; 
-	float:none;
-	display:block;
-}
-.footerli{
-		display: inline;
-}
 
 .my-4{
 	text-align: center;
@@ -139,5 +123,18 @@ p {
   width:32px;
   height:32px;
 
+}
+
+footer {
+  padding: 50px 0 65px;
+}
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+footer .copyright {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0;
 }
 
