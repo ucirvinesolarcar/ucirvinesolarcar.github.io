@@ -93,7 +93,21 @@
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/tether/tether.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-  
+
+
+	<!---- Image load order -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+    <script src="js/jquery.imageorder.js"></script>
+        
+        <script>
+			$(document).ready(function() {
+				$(document).imageOrder(".img-postload");
+			});
+        </script>
+
+ 
+<!--- footer --> 
 <div class="row footerbot">
          <ul class = "col-sm-12 col-sm-offset-6 ulfooter">
    <li class="footerli"><a href="#"><image class = "footericon" src = "../images/logos/facebook.png"></a></li>
