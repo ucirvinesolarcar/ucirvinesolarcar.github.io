@@ -148,6 +148,7 @@ footer .copyright {
 
  white-space: nowrap;
  overflow-x: scroll;
+ max-width: 100%;
  
 
 }
