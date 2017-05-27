@@ -151,6 +151,12 @@ footer .copyright {
 
 }
 
+.imgDescription::-webkit-scrollbar {
+display: none;
+
+}
+
+
 
 
 
