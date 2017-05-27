@@ -147,6 +147,8 @@ footer .copyright {
  max-width: 85%;
  max-height: 65%;
  overflow: auto;
+ margin: 0 auto;
+ text-align: left;
  
 
 }
