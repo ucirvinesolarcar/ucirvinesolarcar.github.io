@@ -143,9 +143,9 @@ footer .copyright {
 
 .imgDescription {
 
- overflow-x: scroll;
+ overflow-x: auto;
  max-width: 210px;
- max-height: 150px;
+ max-height: 140px;
  
 
 }
