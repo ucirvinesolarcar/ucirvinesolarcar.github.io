@@ -47,6 +47,7 @@ a.darken {
     padding: 0;
 	display: inline-block;
 	background: black;
+	overflow:hidden;
 }
 
 a.darken img {
@@ -146,6 +147,7 @@ footer .copyright {
  max-width: 90%;
  max-height: 70%;
  overflow:scroll;
+ padding-right: 17px;
  
 
 }
