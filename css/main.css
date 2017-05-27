@@ -76,7 +76,7 @@ a.darken p{
   top: 0;
   color:#fff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: bold;
 
 visibility: hidden;
@@ -145,7 +145,7 @@ footer .copyright {
 
  overflow-x: scroll;
  max-width: 210px;
- max-height: 100%;
+ max-height: 150px;
  
 
 }
