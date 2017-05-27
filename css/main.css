@@ -74,9 +74,6 @@ a.darken p{
   text-align: center;
   line-height:200px;
   top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   color:#fff;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
@@ -148,7 +145,7 @@ footer .copyright {
 
  overflow-x: scroll;
  max-width: 210px;
- max-height: 140px;
+ max-height: 100%;
  
 
 }
