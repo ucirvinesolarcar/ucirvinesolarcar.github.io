@@ -142,10 +142,10 @@ footer .copyright {
 
 .imgDescription {
 
- overflow-x: hidden;
+ overflow-x:hidden;
  max-width: 90%;
- max-height: 65%;
- overflow:hidden;
+ max-height: 70%;
+ overflow:scroll;
  
 
 }
