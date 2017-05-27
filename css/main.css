@@ -146,6 +146,7 @@ footer .copyright {
  overflow-x:hidden;
  max-width: 90%;
  max-height: 65%;
+ overflow-y:hidden;
  
 
 }
