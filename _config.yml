@@ -10,5 +10,4 @@ defaults:
     values:
       layout: "default"
 
-gem:
-	-more
+excerpt_separator: <!--more-->
