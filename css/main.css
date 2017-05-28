@@ -185,5 +185,14 @@ max-height:250px;
     background:transparent !important;
 }
 
+ body { background: #fffdd7 !important;
+
+ } 
+
+.post{
+list-style-type:none;
+
+}
+
 
 
