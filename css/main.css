@@ -181,10 +181,9 @@ max-height:250px;
 
 }
 
-body{
-    background: navy !important;
+.navbar-inner {
+    background:transparent !important;
 }
-
 
 
 
