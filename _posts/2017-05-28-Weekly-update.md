@@ -1,3 +1,7 @@
+layout: post
+title: "Update"
+date: 2017-05-28
+
 Update #2
  
 Progress has been well underway on our solar car and we have made some very impressive advancements! We still have some ways to go, but the future's looking bright and sunny for UC Irvine Solar Car! 
