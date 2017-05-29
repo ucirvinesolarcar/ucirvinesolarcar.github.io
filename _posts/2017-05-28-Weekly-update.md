@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Update"
-date: 2017-05-28
+title: "Building a Solar Panel"
+date: 2017-04-30
 ---
 
 <b>Update #2</b>
