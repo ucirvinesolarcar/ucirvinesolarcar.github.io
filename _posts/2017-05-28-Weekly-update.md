@@ -23,3 +23,8 @@ The Electrical Team is currently building their solar array and spot welding all
 
 <img src="{{site.url}}/images/blogpost/Sriram/SlackMe.png" width="600">
 <i>The chassis team's new and updated model.</i>
+
+<img src="{{site.url}}/images/blogpost/Sriram/IMG_20170528_174812716.jpg" width="600">
+<i>The electrical team's solar arrays that they are currently building.<i>
+
+
