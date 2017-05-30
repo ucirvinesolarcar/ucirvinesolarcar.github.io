@@ -20,3 +20,6 @@ The Composition team is doing stress analysis on the rod ends that will be used 
 <i>Electrical Team </i>
  
 The Electrical Team is currently building their solar array and spot welding all the batteries. They have decided on the Battery Management System (BMS) that they will be using. The material for the battery box is currently being researched.
+
+<img src="{{site.url}}/images/blogpost/Sriram/SlackMe.png" width="600">
+<i>The chassis team's new and updated model.</i>
