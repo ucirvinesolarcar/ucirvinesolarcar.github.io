@@ -27,4 +27,5 @@ The Electrical Team is currently building their solar array and spot welding all
 <img src="{{site.url}}/images/blogpost/Sriram/IMG_20170528_174812716.jpg" width="600">
 <i>The electrical team's solar arrays that they are currently building.<i>
 
-
+<img src="{{site.url}}/images/blogpost/Sriram/SlackMePart2.png" width="600">
+<i> Aero team has completed their full body design and are currently conducting tests on it. <i> 
