@@ -7,7 +7,7 @@ date: 2017-06-05
 <b>Update #3</b>
 
 The first official quarter of the UCI Solar Car Team has ended. We have accomplished a lot in this quarter and will 
-continue to work hard on our car through the summer. 
+continue to work hard on our car through the summer.
  
 <i>Mechanical</i>
 As for the Mechanical team, the Chassis team built their mock chassis by connecting PVC pipes in order to better visualize 
