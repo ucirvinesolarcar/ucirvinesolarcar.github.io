@@ -20,3 +20,10 @@ with the new chassis. In the summer, they will build the actual chassis.
 The Electrical Team has completed their solar array and is beginning to test their entire electrical system. They finalized 
 and purchased the batteries for the car. They have also built the entire frame for the solar array and assembled the components. 
 The assembly includes connecting the solar array to the charge controller to the battery pack to the inverter to the motors.
+
+
+<img src="{{site.url}}/images/blogpost/Lizette/chassis_stress.PNG" width="600">
+<i>Stress testing the updated chassis.</i>
+
+<img src="{{site.url}}/images/blogpost/Lizette/solararray.jpg" width="600">
+<i>The Electrical Team has completed their test solar array.</i>
