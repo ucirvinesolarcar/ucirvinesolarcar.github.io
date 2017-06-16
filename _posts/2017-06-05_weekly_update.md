@@ -7,6 +7,8 @@ date: 2017-06-05
 <b>Update #3</b>
 
 The first official quarter of the UCI Solar Car Team has ended. All teams have been hard at work this quarter and accomplished a lot in this quarter. We will continue to work hard on our car through the summer. :-)
+
+<!--more-->
  
 <i>Mechanical</i>
 
