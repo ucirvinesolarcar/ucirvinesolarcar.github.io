@@ -20,7 +20,7 @@ to finish calculations on the necessary shock requirements based on the chassis.
 
 In addition, the Aero team has created a new model for the body of the car around the new chassis. 
 
-The composition team is looking to meet with a representative from Scaled for expertise and advise on composite layups. The goal is to finish a small scale mockup to test conditions.
+The Composition team is looking to meet with a representative from Scaled for expertise and advise on composite layups. The goal is to finish a small scale mockup to test conditions.
 
 
 <i>Electrical</i>
