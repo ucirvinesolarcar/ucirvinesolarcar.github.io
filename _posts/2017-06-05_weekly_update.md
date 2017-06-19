@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a the Frame"
+title: "Building the Frame"
 date: 2017-06-05
 ---
 
@@ -30,8 +30,6 @@ The Composition team is looking to meet with a representative from Scaled for ex
 The Electrical Team has completed their solar array and is beginning to test their entire electrical system. They finalized 
 and purchased the batteries for the car. They have also built the entire frame for the solar array and assembled the components. 
 The assembly includes connecting the solar array to the charge controller to the battery pack to the inverter to the motors.
-
-
 
 
 <img src="{{site.url}}/images/blogpost/Lizette/mock_chassis.JPG" width="600">
