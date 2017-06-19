@@ -33,20 +33,24 @@ The assembly includes connecting the solar array to the charge controller to the
 
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/mock_chassis.JPG" width="600">
-<i>The chassis team built a mock chassis using PVC pipes.</i>
 </p>
+<i>The chassis team built a mock chassis using PVC pipes.</i>
+
 
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/chassis_stress.PNG" width="600">
-<i>Stress testing the updated chassis.</i>
 </p>
+<i>Stress testing the updated chassis.</i>
+
 
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/aero_3.png" width="600">
-<i>One of aero team's canopy designs to be tested for drag and lift. </i>
 </p>
+<i>One of aero team's canopy designs to be tested for drag and lift. </i>
+
 
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/solararray.jpg" width="600">
-<i>The Electrical Team has completed their test solar array.</i>
 </p>
+<i>The Electrical Team has completed their test solar array.</i>
+
