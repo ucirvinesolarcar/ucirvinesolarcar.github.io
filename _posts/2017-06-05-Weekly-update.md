@@ -50,11 +50,15 @@ The assembly includes connecting the solar array to the charge controller to the
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/aero_3.png" width="600">
 </p>
+<p align="center">
 <i>One of aero team's canopy designs to be tested for drag and lift. </i>
+</p>
 
 
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/solararray.jpg" width="600">
 </p>
+<p align="center">
 <i>The Electrical Team has completed their test solar array.</i>
+</p>
 
