@@ -34,13 +34,17 @@ The assembly includes connecting the solar array to the charge controller to the
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/mock_chassis.JPG" width="600">
 </p>
+<p align="center">
 <i>The chassis team built a mock chassis using PVC pipes.</i>
+</p>
 
 
 <p align="center">
 <img src="{{site.url}}/images/blogpost/Lizette/chassis_stress.PNG" width="600">
 </p>
+<p align="center">
 <i>Stress testing the updated chassis.</i>
+</p>
 
 
 <p align="center">
