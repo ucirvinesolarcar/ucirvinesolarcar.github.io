@@ -286,5 +286,43 @@ width: 30px;
 .nav-tabss.nav-justified>li {
     float: none
 }
+.nav-tabss.nav-justified>li>a {
+    margin-bottom: 5px;
+    text-align: center
+}
+.nav-tabss.nav-justified>.dropdown .dropdown-menu {
+    top: auto;
+    left: auto
+}
+
+@media (min-width: 768px) {
+    .nav-tabss.nav-justified>li {
+        display: table-cell;
+        width: 1%
+    }
+    .nav-tabss.nav-justified>li>a {
+        margin-bottom: 0
+    }
+}
+.nav-tabss.nav-justified>li>a {
+    margin-right: 0;
+    border-radius: 4px
+}
+.nav-tabss.nav-justified>.active>a,
+.nav-tabss.nav-justified>.active>a:focus,
+.nav-tabss.nav-justified>.active>a:hover {
+    border: 1px solid #ddd
+}
+@media (min-width: 768px) {
+    .nav-tabss.nav-justified>li>a {
+        border-bottom: 1px solid #ddd;
+        border-radius: 4px 4px 0 0
+    }
+    .nav-tabss.nav-justified>.active>a,
+    .nav-tabss.nav-justified>.active>a:focus,
+    .nav-tabss.nav-justified>.active>a:hover {
+        border-bottom-color: #fff
+    }
+}
 
 
