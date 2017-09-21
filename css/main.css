@@ -253,3 +253,38 @@ width: 30px;
 }
 
 
+
+.nav-tabss {
+    border-bottom: 1px solid #ddd
+}
+.nav-tabss>li {
+    float: left;
+    margin-bottom: -1px
+}
+.nav-tabss>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0
+}
+.nav-tabss>li>a:hover {
+    border-color: #eee #eee #ddd
+}
+.nav-tabss>li.active>a,
+.nav-tabss>li.active>a:focus,
+.nav-tabss>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent
+}
+.nav-tabss.nav-justified {
+    width: 100%;
+    border-bottom: 0
+}
+.nav-tabss.nav-justified>li {
+    float: none
+}
+
+
