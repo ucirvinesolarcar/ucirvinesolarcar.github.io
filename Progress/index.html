@@ -1,0 +1,15 @@
+---
+layout: default
+title: UC Irvine's Solar Car Progress
+---
+
+
+<h2 class="my-4">{{ page.title }}</h2>
+<ul class="posts">
+
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+{{ post.excerpt }}
+  {% endfor %}
+    
+</ul>
