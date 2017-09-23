@@ -264,50 +264,6 @@ width: 30px;
 }
 
 
-.footer__social {
-  height: 68px;
-  text-align: center;
-  opacity: 1;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-  line-height: 70px;
-}
-.footer__social .fa {
-  vertical-align: middle;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.footer__social.instagram:hover {
-  background-color: #3f729b;
-}
-.footer__social.instagram .fa {
-  color: #3f729b;
-}
-.footer__social.twitter:hover {
-  background-color: #3CF;
-}
-.footer__social.twitter .fa {
-  color: #3CF;
-}
-.footer__social.github:hover {
-  background-color: #4183c4;
-}
-.footer__social.github .fa {
-  color: #4183c4;
-}
-.footer__social.codepen:hover {
-  background-color: #1D1F20;
-}
-.footer__social.codepen .fa {
-  color: #1D1F20;
-}
-.footer__social:hover .fa {
-  color: #fff;
-}
-.footer__social:focus {
-  opacity: .85;
-}
-
 @media (max-width: 767px) {
   .form__container {
     margin: 0;
