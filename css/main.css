@@ -253,11 +253,6 @@ width: 30px;
 }
 
 
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400);
-body {
-  font-family: "Lato", Lato, Open Sans, "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  background: url("https://i.imgur.com/lJOMNeJ.png");
-}
 
 .form__container {
   background: #fff;
@@ -268,9 +263,6 @@ body {
   border-radius: 4px;
 }
 
-.gutter {
-  height: 32px;
-}
 
 .footer__social {
   height: 68px;
