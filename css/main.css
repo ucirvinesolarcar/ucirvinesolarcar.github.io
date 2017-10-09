@@ -281,7 +281,7 @@ width: 30px;
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 10px; }
-  .post-preview > a > .post-subtitle {
+  .post-preview > li > p > .post-subtitle {
     font-weight: 300;
     margin: 0 0 10px; }
 
