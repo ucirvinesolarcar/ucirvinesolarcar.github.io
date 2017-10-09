@@ -285,19 +285,19 @@ width: 30px;
     font-weight: 300;
     margin: 0 0 10px; }
 
-.post-preview > .post-meta {
+.post-preview > li >.post-meta {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
   color: #777777; }
-  .post-preview > .post-meta > a {
+  .post-preview >  li >.post-meta > a {
     text-decoration: none;
     color: #333333; }
-    .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+    .post-preview > li > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
       text-decoration: underline;
       color: #0085A1; }
 
 @media only screen and (min-width: 768px) {
-  .post-preview > a > .post-title {
+  .post-preview > li > a > .post-title {
     font-size: 36px; } }
 
