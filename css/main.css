@@ -272,12 +272,12 @@ width: 30px;
 }
 
 
-.post-preview > a {
+.post-preview > li > a {
   color: #333333; }
-  .post-preview > a:focus, .post-preview > a:hover {
+  .post-preview >  li> a:focus, .post-preview > li> a:hover {
     text-decoration: none;
     color: #0085A1; }
-  .post-preview > a > .post-title {
+  .post-preview > li > a > .post-title {
     font-size: 30px;
     margin-top: 30px;
     margin-bottom: 10px; }
