@@ -8,7 +8,12 @@ title: UC Irvine's Solar Car Progress
 <ul class="posts">
 
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    <div class = "post-preview">
+		<li>
+			<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+			<span>{{ post.date | date_to_string }}</span> &raquo; 
+		</li>
+	</div>
 {{ post.excerpt }}
   {% endfor %}
     
