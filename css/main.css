@@ -297,6 +297,16 @@ width: 30px;
   .post-preview > li > p > .post-subtitle {
     font-weight: 300;
     margin: 0 0 10px; }
+    
+  .post-preview > li:after 
+  {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 40%;
+    margin: 10px;
+    background: #f00;
+  }
 
 .post-preview > li >.post-meta {
   font-size: 18px;
