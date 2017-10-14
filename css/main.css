@@ -327,8 +327,6 @@ width: 30px;
     
 .namelist > li 
 {
-	
-
-
+	display: inline;
 }
 
