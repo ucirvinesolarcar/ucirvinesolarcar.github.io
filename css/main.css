@@ -327,6 +327,16 @@ width: 30px;
     
 .namelist > li 
 {
-	display: inline-block;
+	display: inline;
+}
+
+.namelist li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+	font-size:11px;
+}
+.namelist li:first-child:before {
+	content: '';
 }
 
