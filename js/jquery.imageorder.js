@@ -21,3 +21,8 @@ var imgLoadImages, imgLoadIndex;
   	}
   };
 })( jQuery );
+
+
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});

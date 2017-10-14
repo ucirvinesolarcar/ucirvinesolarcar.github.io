@@ -73,3 +73,8 @@ $(function() {
 $('#name').focus(function() {
     $('#success').html('');
 });
+
+
+$(function () {
+    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+});
