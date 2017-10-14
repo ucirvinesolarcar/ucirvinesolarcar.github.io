@@ -328,6 +328,13 @@ width: 30px;
 .namelist > li 
 {
 	display: inline;
+	
+}
+
+.namelist
+{
+margin: 0; padding: 0;
+
 }
 
 .namelist li:before {
