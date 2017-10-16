@@ -358,3 +358,8 @@ li.dropdown:hover > .dropdown-menu {
     background-color: rgb(231, 231, 231);
     color: rgb(85, 85, 85);
 }
+
+.team-header {
+margin-top: 5px;
+
+}
