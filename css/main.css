@@ -347,3 +347,6 @@ margin: 0; padding: 0;
 	content: '';
 }
 
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
