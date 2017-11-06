@@ -1,37 +1,22 @@
-/*!
- * Copyright 2013-2017 Start Bootstrap
- */
 
-
-
-@media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
+.intro-header-team {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../images/group_photo/team.jpg) no-repeat center center;
+  background-size: cover;
+  margin: px 10px 0px 100px;
 }
 
-.carousel-item {
-    height: 65vh;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.wide {
+    width : 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;        
+        
 }
 
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
-}
-
-.thumb {
-    margin-bottom: 30px;
-}
-
-footer {
-    margin: 50px 0;
-}
