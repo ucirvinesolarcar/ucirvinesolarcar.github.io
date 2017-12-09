@@ -204,6 +204,16 @@ list-style-type:none;
   margin: px 10px 0px 100px;
 }
 
+.intro-headerelectrical {
+  padding-top: 100px;
+  padding-bottom: 60px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../images/group_photo/team.jpg) no-repeat center center;
+  background-size: cover;
+  margin: px 10px 0px 100px;
+}
+
 
 .intro-headermechanical {
   padding-top: 100px;
@@ -240,6 +250,12 @@ list-style-type:none;
   padding-bottom: 20%;
 }
 
+.intro-messageelectrical {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
 
 .intro-message>h1 {
   margin: 0;
@@ -248,6 +264,13 @@ list-style-type:none;
 }
 
 .intro-messagemechanical>h1 {
+  margin: 0;
+  margin-bottom: 300px;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.intro-messageelectrical>h1 {
   margin: 0;
   margin-bottom: 300px;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
@@ -268,6 +291,10 @@ list-style-type:none;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.intro-messageelectrical>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
 @media(max-width:767px) {
   .intro-message {
     padding-bottom: 15%;
@@ -275,10 +302,17 @@ list-style-type:none;
     .intro-messagemechanical {
     padding-bottom: 15%;
   }
+  
+      .intro-messageelectrical {
+    padding-bottom: 15%;
+  }
   .intro-message>h1 {
     font-size: 3em;
   }
     .intro-messagemechanical>h1 {
+    font-size: 3em;
+  }
+      .intro-messageelectrical>h1 {
     font-size: 3em;
   }
   ul.intro-social-buttons>li {
