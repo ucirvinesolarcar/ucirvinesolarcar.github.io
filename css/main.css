@@ -234,7 +234,20 @@ list-style-type:none;
   padding-bottom: 20%;
 }
 
+.intro-messagemechanical {
+  position: relative;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+
 .intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+.intro-messagemechanical>h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 5em;
@@ -250,11 +263,21 @@ list-style-type:none;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
+.intro-messagemechanical>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
 @media(max-width:767px) {
   .intro-message {
     padding-bottom: 15%;
   }
+    .intro-messagemechanical {
+    padding-bottom: 15%;
+  }
   .intro-message>h1 {
+    font-size: 3em;
+  }
+    .intro-messagemechanical>h1 {
     font-size: 3em;
   }
   ul.intro-social-buttons>li {
