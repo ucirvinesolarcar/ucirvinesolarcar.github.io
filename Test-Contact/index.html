@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>UC Irvine Solar</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="js/wow.js"></script>
+    </head>
+
+    <body>
+
+        <!-- Nav --->
+
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark">
+            <div class="container">
+                <a href="/" class="navbar-brand text-secondary">
+                    <img style="height: 40px; width: 40px;" src="http://ucirvinesolarcar.com/images/logos/teamlogo.png" class="d-inline-block al">UC Irvine Solar Car
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-secondary">Home</a></li>
+                        <li class="nav-item">
+                            <a href="mechanical.html" class="nav-link text-secondary">Mechanical</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="electrical.html" class="nav-link text-secondary">Electrical</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="team.html" class="nav-link text-secondary">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="progress.html" class="nav-link text-secondary">Progress</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link text-secondary dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sponsor
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="sponsor.html" class="dropdown-item">Our Sponsors</a>
+                                <a href="spnsorapp.html" class="dropdown-item">
+                                    Become Our Sponsor!
+                                </a>
+                                <div class="dropdown-divider" style="margin-right: 8%; margin-left: 8%;"></div>
+                                <a href="sponsorfaq.html" class="dropdown-item">
+                                    FAQ
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link text-secondary">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="donate.html" class="nav-link text-secondary">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- MAP --->
+
+        <div id="style-selector-control"  class="map-control">
+            <select id="style-selector" class="selector-control">
+                <option value="default">Default</option>
+                <option value="retro" selected="selected">Retro</option>
+            </select>
+        </div>
+
+        <div id="map" class="mt-0 wow fadeIn"></div>
+
+        <!-- Page Header --->
+
+        <div class="container mt-5 wow fadeIn">
+            <div class="row">
+                <div class="col-md-6 m-auto text-center">
+                    <h1>Contact Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, saepe.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact --->
+
+        <section id="contact" class="py-3">
+            <div class="container wow fadeInDown">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card p-4">
+                            <div class="card-body">
+                                <h4>Get In Touch</h4>
+                                <p>Feel free to send us a message from the contact form </p>
+                                <h4>Address</h4>
+                                <p>5200 Engineering Service Rd, Irvine, CA 92617</p>
+                                <h4>Email</h4> <p>ucirvinesolarcar@gmail.com.</p>
+                                <h4>Donation Information</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <form id="contactForm">
+                            <div class="card p-4">
+                                <div class="card-body">
+                                    <h3 class="text-center">Please fill out this form to contact us</h3>
+                                    <div class="text-center alert alert-primary p-1 mt-3 mb-1" role="alert">
+                                        Your message has been sent!
+                                    </div>
+                                    <hr>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control"
+                                                       placeholder="First Name" id="first" name="first">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control"
+                                                       placeholder="Last Name" id="last" name="last">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Email" id="email" name="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12"><div class="form-group">
+                                            <textarea class="form-control" placeholder="Message"
+                                                      id="message" name="message" form="contactForm"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12" id="contactForm">
+                                            <button type="submit" class="btn btn-outline-danger btn-block">Submit</button>
+                                            <!---<input type="submit" class="btn btn-outline-danger btn-block">-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer --->
+
+        <footer id="main-footer" class="text-center p-4 mt-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="text-secondary">© 2018 The Henry Samueli School of Engineering University of California, Irvine.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            new WOW().init();
+        </script>
+
+        <script>
+            var map;
+
+            function initMap() {
+                const uci = {
+                    lat: 33.644011,
+                    lng: -117.839194
+                };
+                console.log('Initiating Map!');
+                map = new google.maps.Map(document.getElementById('map'), {
+                    center: uci,
+                    zoom: 13,
+                    mapTypeControl: false
+                });
+
+                var marker = new google.maps.Marker({
+                    position: uci,
+                    map: map
+                });
+
+                var styleControl = document.getElementById('style-selector-control');
+                map.controls[google.maps.ControlPosition.TOP_LEFT].push(styleControl);
+
+                var styleSelector = document.getElementById('style-selector');
+                map.setOptions({styles: styles[styleSelector.value]});
+
+                styleSelector.addEventListener('change', function() {
+                    map.setOptions({styles: styles[styleSelector.value]});
+                });
+            }
+
+            var styles = {
+                default: null,
+                retro: [
+                    {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
+                    {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
+                    {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+                    {
+                        featureType: 'administrative',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#c9b2a6'}]
+                    },
+                    {
+                        featureType: 'administrative.land_parcel',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#dcd2be'}]
+                    },
+                    {
+                        featureType: 'administrative.land_parcel',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#ae9e90'}]
+                    },
+                    {
+                        featureType: 'landscape.natural',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#93817c'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry.fill',
+                        stylers: [{color: '#a5b076'}]
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#447530'}]
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'geometry',
+                        stylers: [{color: '#f5f1e6'}]
+                    },
+                    {
+                        featureType: 'road.arterial',
+                        elementType: 'geometry',
+                        stylers: [{color: '#fdfcf8'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry',
+                        stylers: [{color: '#f8c967'}]
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#e9bc62'}]
+                    },
+                    {
+                        featureType: 'road.highway.controlled_access',
+                        elementType: 'geometry',
+                        stylers: [{color: '#e98d58'}]
+                    },
+                    {
+                        featureType: 'road.highway.controlled_access',
+                        elementType: 'geometry.stroke',
+                        stylers: [{color: '#db8555'}]
+                    },
+                    {
+                        featureType: 'road.local',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#806b63'}]
+                    },
+                    {
+                        featureType: 'transit.line',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'transit.line',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#8f7d77'}]
+                    },
+                    {
+                        featureType: 'transit.line',
+                        elementType: 'labels.text.stroke',
+                        stylers: [{color: '#ebe3cd'}]
+                    },
+                    {
+                        featureType: 'transit.station',
+                        elementType: 'geometry',
+                        stylers: [{color: '#dfd2ae'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry.fill',
+                        stylers: [{color: '#b9d3c2'}]
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'labels.text.fill',
+                        stylers: [{color: '#92998d'}]
+                    }
+                ]
+            };
+        </script>
+
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDQeDGBGARgHePOvLGZGgsPQiePXQM6xNU&callback=initMap"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+        <script src="js/contact.js"></script>
+
+    </body>
+</html>
