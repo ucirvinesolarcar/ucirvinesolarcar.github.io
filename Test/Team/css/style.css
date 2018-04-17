@@ -1,0 +1,161 @@
+body {
+    overflow-x: hidden; }
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid; }
+
+.carousel-item {
+    height: 450px; }
+
+.carousel-image-1 {
+    background: url("../img/Rancho_2-min-min.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-image-2 {
+    background: url("../img/Rancho_2-min-min.jpg");
+    background-size: cover; 
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-image-3 {
+    background: url("../img/Rancho_2-min-min.jpg");
+    background-size: cover; 
+    width: 100%;
+    height: 450px;
+}
+
+
+.fa {
+    font-size: 55px; }
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/lights.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; }
+
+.dark-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/media.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff; }
+#video-play a {
+    color: #fff; }
+
+footer#main-footer {
+    background: #eee;
+    color: #fff; }
+
+#page-header {
+    height: 200px;
+    background: url("../img/Halfmoon_bay_1.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px; }
+
+#about img {
+    margin-top: -50px; }
+
+#faq .card {
+    border: #444; }
+#faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+    background: #333; }
+
+.alert {
+    display: none;
+}
+
+.portfolio-nav li {
+    display: inline;
+}
+
+.portfolio-nav li a {
+    display: inline-block;
+    color: #000000;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.portfolio-nav li a:hover {
+    background: #f7b331;
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolio-nav li a active {
+    background: #f7b331;
+    color: #fff;
+    text-decoration: none;
+}
+
+#particles-js {
+    position: relative;
+    height: 100%;
+}
+
+.dates {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    widows: 100%;
+}
+
+.dates h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.parallax {
+    background: url("../img/index.jpg") repeat fixed 100%;
+}
+
+.parallax-inner {
+    top: 40%;
+    width: 100%;
+}
+
+.parallax-inner h2 {
+    font-size: 32px;
+    line-height: 30px;
+}
+
+
