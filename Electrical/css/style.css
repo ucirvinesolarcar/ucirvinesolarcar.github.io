@@ -312,7 +312,7 @@ footer#main-footer {
 
 .parallax-electrical-team {
     display: flex;
-    background-image: url("../img/electricalteam.JPG");
+    background-image: url("../../images/team_photos/electricalteam.JPG");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
