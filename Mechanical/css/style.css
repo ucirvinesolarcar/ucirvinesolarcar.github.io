@@ -1,0 +1,327 @@
+body {
+    overflow-x: hidden; 
+    min-height: 100vh;
+    position: relative;
+    font-size: 20px;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1em !important;
+    padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+    border-left: #444 3px solid; }
+
+.carousel-item {
+    height: 450px; }
+
+.carousel-image-1 {
+    background: url("../img/teamphoto.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-image-2 {
+    background: url("../img/Rancho_2-min-min.jpg");
+    background-size: cover; 
+    width: 100%;
+    height: 450px;
+}
+
+.carousel-image-3 {
+    background: url("../img/Rancho_2-min-min.jpg");
+    background-size: cover; 
+    width: 100%;
+    height: 450px;
+}
+
+
+.fa {
+    font-size: 55px; }
+
+#home-heading {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/lights.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fff; }
+
+.dark-overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+#video-play {
+    position: relative;
+    min-height: 200px;
+    background: url("../img/media.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #fff; }
+#video-play a {
+    color: #fff; }
+
+footer#main-footer {
+    background: #eee;
+    color: #fff;  
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#page-header {
+    height: 200px;
+    background: url("../img/Halfmoon_bay_1.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #fff;
+    border-bottom: 1px #eee solid;
+    padding-top: 50px; }
+
+#about img {
+    margin-top: -50px; }
+
+#faq .card {
+    border: #444; }
+#faq .card a {
+    color: #fff;
+    text-decoration: none; }
+
+#faq .card-body, #faq .card-header {
+    background: #333; }
+
+.alert {
+    display: none;
+}
+
+.portfolio-nav li {
+    display: inline;
+}
+
+.portfolio-nav li a {
+    display: inline-block;
+    color: #000000;
+    padding: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+}
+
+.portfolio-nav li a:hover {
+    background: #f7b331;
+    color: #fff;
+    text-decoration: none;
+}
+
+.portfolio-nav li a active {
+    background: #f7b331;
+    color: #fff;
+    text-decoration: none;
+}
+
+#particles-js {
+    position: relative;
+    height: 100%;
+}
+
+.dates {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    widows: 100%;
+}
+
+.dates h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.parallax {
+    background: url("../img/index.jpg") repeat fixed 100%;
+}
+
+.parallax-inner {
+    top: 40%;
+    width: 100%;
+}
+
+.parallax-inner h2 {
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.round-card {
+    border-radius: 10px;
+}
+
+.round-title {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.namelist > li {
+    display: inline;
+}
+
+.namelist {
+    margin: 0;
+    padding: 0;
+}
+
+.namelist li:before {
+    content: '\00a0\2022\00a0\00a0';
+    color:#999;
+    color:rgba(0,0,0,0.5);
+    font-size: 20px;
+}
+
+.namelist li:first-child:before {
+    content: '';
+}
+
+#map {
+    height: 500px;
+}
+
+.map-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    font-family: 'Roboto','sans-serif';
+    margin: 10px;
+    /* Hide the control initially, to prevent it from appearing
+    before the map loads. */
+    display: none;
+}
+
+/* Display the control once it is inside the map. */
+#map .map-control { 
+    display: block; 
+}
+
+.selector-control {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.team-leader-block{
+    max-width:993px;
+    margin:0 auto;
+}
+.team-leader-box{
+    width:30.66%;
+    margin-right: 3.82979%;
+    height: 490px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+
+.team-leader-box:nth-of-type(3n+0){ margin:0;}
+
+.team-leader{
+    width:auto;
+    height:auto;
+    position:relative;
+    border-radius:50%;
+    box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
+    margin:7px 7px 25px 7px;
+
+}
+
+.team-leader img {
+    display: block;
+}
+
+.team-leader-shadow{
+    transition:all 0.3s ease-in-out;
+    -moz-transition:all 0.3s ease-in-out;
+    -webkit-transition:all 0.3s ease-in-out;
+    border-radius:50%;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:10;
+    border-radius:50%;
+}
+.team-leader-shadow a{
+    display:block;
+    width:100%;
+    height:100%;
+}
+
+.sponsor-block{
+    max-width: 993px;
+    margin:0 auto;
+}
+.sponsor-box{
+    width: 50%;
+    margin-right: 3.82979%;
+    height: 490px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+}
+
+.sponsor-img{
+    width: auto;
+    height:auto;
+    position:relative;
+    border-radius:50%;
+    box-shadow:0px 0px 0px 7px rgba(241,241,241,0.80);
+    margin:7px 7px 25px 7px;
+
+}
+
+.parallax-mechanical-team {
+    display: flex;
+    background-image: url("../images/team_photos/mechanicalteam.JPG");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax-electrical-team {
+    display: flex;
+    background-image: url("../images/team_photos/electricalteam.JPG");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
