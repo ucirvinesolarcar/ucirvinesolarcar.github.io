@@ -312,7 +312,7 @@ footer#main-footer {
 
 .parallax-electrical-team {
     display: flex;
-    background-image: url("../../images/team_photos/electricalteam.JPG");
+    background-image: url("../img/electricalteam.JPG");
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -320,6 +320,35 @@ footer#main-footer {
     background-size: cover;
     justify-content: center;
     align-items: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    max-width: 100%;
+    transition: .5s ease;
+    background-color: lightgray;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.text {
+    color: #888888;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 
