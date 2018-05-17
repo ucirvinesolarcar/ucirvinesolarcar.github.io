@@ -1,92 +1,230 @@
----
-layout: default
-title: UC Irvine Solar Car
----
-      <!-- Header -->
-    <header class="intro-header">
-      <div class="container">
-        <div class="intro-message">
-          <h1>SolEaters</h1>
-          <h3>UC Irvine's first solar car team</h3>
-		  <hr class="intro-divider" class="col-xs-12">
-          <ul class="list-inline intro-social-buttons">
-            <li class="list-inline-item">
-              <a href="/Team" class="btn btn-primary btn-lg">
-                <span class="network-name">Team</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="/Car" class="btn btn-primary  btn-lg">
-                <span class="network-name">Progress</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="/Donate" class="btn btn-primary btn-lg">
-                <span class="network-name">Donate</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </header>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>UC Irvine Solar</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top" style="margin-bottom: 0;">
+            <div class="container">
+                <a href="/" class="navbar-brand text-secondary">
+                    <img style="height: 40px; width: 40px;" src="http://ucirvinesolarcar.com/images/logos/teamlogo.png" class="d-inline-block al">UC Irvine Solar Car
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link text-secondary">Home</a></li>
+                        <li class="nav-item">
+                            <a href="/Mechanical" class="nav-link text-secondary">Mechanical</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Electrical" class="nav-link text-secondary">Electrical</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Team" class="nav-link text-secondary">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Progress" class="nav-link text-secondary">Progress</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link text-secondary dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sponsor
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="/Sponsors" class="dropdown-item">Our Sponsors</a>
+                                <a href="/Sponsorapp" class="dropdown-item">
+                                    Become Our Sponsor!
+                                </a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/Contact" class="nav-link text-secondary">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.gofundme.com/SolEaters" class="nav-link text-secondary">Donate</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="showcase">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item carousel-image-1 active">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+                                <h1 class="display-3">Team</h1>
+                                <p class="lead">Go to our team page to take a closer look at our amazing team!</p>
+                                <a href="#" class="btn btn-info btn-lg">Team</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item carousel-image-2">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block mb-5 text-right">
+                                <h1 class="display-3">Progress</h1>
+                                <p class="lead">Head on over to the progress page to see what the team has been working on recently!
+                                </p>
+                                <a href="#" class="btn btn-info btn-lg">Progress</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item carousel-image-3">
+                        <div class="container">
+                            <div class="carousel-caption d-none d-sm-block mb-5 text-right">
+                                <h1 class="display-3">Donate</h1>
+                                <p class="lead">We are always looking for new sponsors so if you are willing then please donate!
+                                </p>
+                                <a href="#" class="btn btn-info btn-lg">Donate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+
+                <a href="#myCarousel" data-slide="next" class="carousel-control-next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Intro -->
+
+        <section id="intro">
+            <div class="container-fluid" style="padding-bottom: 50px; padding-top: 50px;">
+                <h1 class="py-3 font-weight-bold text-center">Who are we?</h1>
+                <div class="row pt-2">
+                    <div class="col-lg-5 text-center text-lg-left">
+                        <img src="images/car_photos/pic1.JPG" alt="" class="img-fluid z-depth-0 rounded">
+                    </div>
+
+                    <div class="col-lg-7">
+                        <div class="row pb-3">
+                            <div class="col-12">
+                                <h5 class="font-weight-bold text-left mb-3 ml-2">Our Misson</h5>
+                                <p class="text-muted text-left ml-2">Driven by the aspiration of building a solar car, a group of mechanical and electricalengineering students assembled in late 2016, starting the SolEaters team at UCI. Theteam officially started in March 2017 after receiving professional advisement fromprofessors and mentors.      The SolEaters, containing fourty students from diverse majors (electrical,mechanical, biomedical, materials science engineering, physics, and business), plansto compete in the 2019 Formula Sun Grand Prix.  Our goal is to design and build afunctional solar car that complies with Formula Sun Grand Prix regulations.</p>
+                            </div>
+                        </div>
+
+                        <div class="row pb-3">
+                            <div class="col-12">
+                                <h5 class="font-weight-bold text-left mb-3 ml-2">Our team</h5>
+                                <p class="text-muted text-left ml-2">Our team members learn how to machine, fabricate, and build industrial automotive components from raw materials in our on-campus solar car workshop.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- team -->
+
+        <section id="team-leaders">
+            <div class="container-fluid" style="background-color: #eee; padding-bottom: 30px;">
+                <h2 class="h1 text-center pt-5">Team Leaders</h2>
+                <p class="text-muted pb-5 text-center">
+                    Go to our team page to take a closer look at our amazing team!
+                </p>
+                <div class="team-leader-block clearfix">
+                    <div class="team-leader-box">
+                        <div class="team-leader">
+                            <div class="team-leader-shadow"></div>
+                            <img src="images/team_photos/stacyagustin.jpg" alt="">
+                        </div>
+                        <h4><strong>Stacey Agustin</strong></h4>
+                        <h6 class="font-weight-bold text-muted mb-4">
+                            Project Manager
+                        </h6>
+                        <p class="text-muted">
+                            Driven by my passion for renewable energy and cars, I founded this team in Spring 2017 with the goal of combining my two passions and moving towards a more renewable future.
+                        </p>
+                    </div>
+
+                    <div class="team-leader-box">
+                        <div class="team-leader">
+                            <img src="images/team_photos/lizettenguyen.JPG" alt="">
+                        </div>
+                        <h4><strong>Lizette Nguyen</strong></h4>
+                        <h6 class="font-weight-bold text-muted mb-4">
+                            Mechanical Lead
+                        </h6>
+                        <p class="text-muted">
+                            Living in the most polluted region in the country, I joined Solar Car to contribute to the solution for sustainable transportation.
+                        </p>
+                    </div>
+
+                    <div class="team-leader-box">
+                        <div class="team-leader">
+                            <img src="images/team_photos/yulissalemus.JPG" alt="">
+                        </div>
+                        <h4><strong>Yulissa Lemus</strong></h4>
+                        <h6 class="font-weight-bold text-muted mb-4">
+                            Electrical Lead
+                        </h6>
+                        <p class="text-muted">
+                            
+                        </p>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <!--
+        <section id="sponsor">
+            <div class="container" style="padding-bottom: 100px;">
+                <h1 class="h1 text-center pt-5">Sponsors</h1>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="img/msc.jpg" alt="">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <img src="img/Webp.net-resizeimage.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section> 
+        -->
+
+        
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="container">
+                <span class="text-muted">
+                    © 2018 The Henry Samueli School of Engineering University of California, Irvine.
+                </span>
+            </div>
+        </footer>
 
 
 
-<div class="container">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+        <script src="js/main.js"></script>
 
-		
-        <h1 class="my-4">Our Mission</h1>
-		<p>Guided by our passion for renewable energy, we are driven to find an alternative method to fossil fuels. 
-		Building a solar car for the American Solar Car Challenge provides one solution to the currently
-		 unsustainable method of energy used in the travel industry. In order to complete our goal of making a
-		  practical solar car, our team must use our knowledge of physics, mathematics, engineering, and computer science to create the most efficient car for the competition.</p>
-
-
-<div class = "gallery">
-	<div class ="row">
-		<div class= "col-lg-3 col-sm-12">
-			<a href="../images/front_page/20170609_212338.jpg" data-title="Finished Constructing First Solar Panel" data-lightbox="Solar">
-    			<img src="../images/front_page/20170609_212338.jpg" class="img-thumbnail mx-auto" style="width: 200px; height: 150px">
-			</a>
-		</div>
-
-				<div class= "col-lg-3 col-sm-12">
-			<a href="../images/blogpost/Lizette/mock_chassis.JPG" data-title="Mock Chassis Layup" data-lightbox="Solar">
-    			<img src="../images/blogpost/Lizette/mock_chassis.JPG" class="img-thumbnail mx-auto" style="width: 200px; height: 150px">
-			</a>
-		</div>
-
-						<div class= "col-lg-3 col-sm-12">
-			<a href="../images/blogpost/Sriram/IMG_20170528_174812716.jpg" data-title="Soldering Solar Cells" data-lightbox="Solar">
-    			<img src="../images/blogpost/Sriram/IMG_20170528_174812716.jpg" class="img-thumbnail mx-auto" style="width: 200px; height: 150px">
-			</a>
-		</div>
-
-						<div class= "col-lg-3 col-sm-12">
-			<a href="../images/blogpost/Sriram/IMG_20170528_171700912.jpg" data-title="Soldering Lithium Ion Battery Cells" data-lightbox="Solar">
-    			<img src="../images/blogpost/Sriram/IMG_20170528_171700912.jpg" class="img-thumbnail mx-auto" style="width: 200px; height: 150px">
-			</a>
-		</div>
-
-     </div>
-</div>
-
-
-
-		<h1 class="my-4">Our Sponsors</h1>
-		
-		
-		<div class ="row">
-		<div class = "col-md-2">
-		<a href="https://www.asuci.uci.edu/internalvp/tgif/">  <image class = "logo_fp" src = "../images/logos/tgif.jpg"> </a>
-		</div>
-		<div class = "col-md-2">
-        <a href="http://www.mscsoftware.com/">  <image class = "logo_fp" src = "../images/logos/msc.png"> </a>
-        </div>
-		<div class = "col-md-2">
-        <a href="http://www.altair.com/">  <image class = "logo_fp" src = "../images/logos/altair.jpg"> </a>
-        </div>
-		<div class = "col-md-2">
-        <a href="http://www.urop.uci.edu/">  <image class = "logo_fp" src = "../images/logos/UROP.jpg"> </a>
-        </div>
-		</div>
+    </body>
+</html>
