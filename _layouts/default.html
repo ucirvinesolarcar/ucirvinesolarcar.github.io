@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>{{ page.title }}</title>
+        <!--
+        <title>{{ page.title }}</title> -->
+        <!--
         <meta name="keywords" content="UC Irvine, Irvine,Solar Car,Team,Join,Mechanical,Engineering,
                                        Electrical,Sponsor,Project,Senior,Dank,Memes,Energy,Interest,Contact, uc irvine solar car, uc irvine, uci solar car,uci,uci team,uci mae 189,energy,renewable,how to join,email,contact">
 
         <link rel="stylesheet" type="text/css" href="{{site.url}}/css/main.css">
         <link rel = "stylesheet" type = "text/css" href = "{{site.url}}/Team/css/main.css">
-
+    --> <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>UC Irvine Solar Car</title>
+        <link rel="stylesheet" href="../css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/animate.css">
+        
         <!---   Lato font     -->
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
@@ -28,16 +39,19 @@
 
 -->
 
-
+        <!--
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
+    -->
 
-
+        
+        <!--
 
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet"/>
+    -->
         <!--    <link href="{{site.url}}/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">  -->
 
         <!---fa fa fonts  --->
@@ -47,11 +61,12 @@
 <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 -->
 
-
-        <!---- Lightbox css --> 
+        <!-- Lightbox css --> 
+        <!-- 
         <link href="{{site.url}}/css/lightbox.css" rel="stylesheet">
-
+        -->
         <!-- Temporary navbar container fix -->
+        <!--
         <style>
             .navbar-toggler {
                 z-index: 1;
@@ -70,6 +85,7 @@
                 display: block;
             }
         </style>
+    -->
 
 
 
@@ -82,37 +98,46 @@
 
 
         <!-- Navigation  -->
-        <nav class="navbar fixed-top navbar-expand-lg navbar-toggleable-md navbar-inverse bg-inverse">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <nav class="navbar navbar-expand-sm navbar-light bg-dark fixed-top" style="margin-bottom: 10%;">
             <div class="container">
-                <a class="navbar-brand" href="/"><img id="teamlogo" src="{{site.url}}/images/logos/teamlogo.png">UC Irvine Solar Car</a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <a href="/" class="navbar-brand text-secondary">
+                    <img style="height: 40px; width: 40px;" src="http://ucirvinesolarcar.com/images/logos/teamlogo.png" class="d-inline-block al">UC Irvine Solar Car
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="/Mechanical">Mechanical</a>
+                            <a href="/" class="nav-link text-secondary">Home</a></li>
+                        <li class="nav-item">
+                            <a href="/Mechanical" class="nav-link text-secondary">Mechanical</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Electrical">Electrical</a>
+                            <a href="/Electrical" class="nav-link text-secondary">Electrical</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Team">Team</a>
+                            <a href="/Team" class="nav-link text-secondary">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Progress">Progress</a>
+                            <a href="/Progress" class="nav-link text-secondary">Progress</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link text-secondary dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sponsor
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a href="/Sponsors" class="dropdown-item">Our Sponsors</a>
+                                <a href="/SponsorApp" class="dropdown-item">
+                                    Become Our Sponsor!
+                                </a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Sponsors">Sponsors</a>
+                            <a href="/Contact" class="nav-link text-secondary">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/Contact">Contact</a>
+                            <a href="https://www.gofundme.com/SolEaters" class="nav-link text-secondary">Donate</a>
                         </li>
                     </ul>
-                    <a href="https://www.gofundme.com/SolEaters">
-                        <button class="btn btn-primary navbar-btn">Donate</button>
-
-                    </a>
                 </div>
             </div>
         </nav>
@@ -128,10 +153,20 @@
 
 
 
-
+    <!--
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script> -->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+    <script src="js/main.js"></script>
 
 
 
@@ -150,9 +185,17 @@
 
 
 
-    <!--- footer --> 
+    <!- footer --> 
 
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted">
+                    © 2018 The Henry Samueli School of Engineering University of California, Irvine.
+            </span>
+        </div>
+    </footer>
 
+    <!--
     <footer class="bg-inverse top-buffer">
         <div class="navbar navbar-inverse bg-inverse navbar-fixed-bottom" role="navigation">
             <div class="container">
@@ -180,9 +223,9 @@
             </div>
         </div>
     </footer>
+    -->
 
-
-    <!----	
+    <!---	
 <footer class="bg-dark">
 <div class="container">
 <div class="row  ">
