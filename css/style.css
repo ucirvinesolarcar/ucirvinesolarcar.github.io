@@ -360,8 +360,9 @@ footer#main-footer {
     color: #333333;
 }
 
-.post-preview li a h2:hover {
-    color: #0085A1;
+.post-preview >  li> a:focus, .post-preview > li> a:hover {
+    text-decoration: none;
+    color: #0085A1; 
 }
 
 
