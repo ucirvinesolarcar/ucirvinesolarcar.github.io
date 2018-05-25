@@ -3,23 +3,25 @@ layout: default
 title: UC Irvine's Solar Car Progress
 ---
 
-
-<h2 class="my-4">UC Irvine's Solar Car Progress</h2>
-<ul class="posts">
-
-<div class="col-lg-8 col-md-10 mx-auto">	
-	
-  {% for post in site.posts %}
-    <div class = "post-preview">
-		<li>
-			<a  href="{{ post.url }}" title="{{ post.title }}"><h2 class= "post-title">{{ post.title }}</h2></a>
-			<span class = "post-meta">{{ post.date | date_to_string }}</span> &raquo; 
-			<p class = "post-subtitle">{{ post.excerpt }} {% endfor %}</p>
-		</li>
-		
+<div class="container">
+	<div class="row">
+		<h2 class="text-center">UC Irvine's Solar Car Progress</h2>	
+		<ul class="posts">
+			<div class="col-lg-8 col-md-10 mx-auto">	
+  				{% for post in site.posts %}
+    				<div class = "post-preview">
+						<li><a  href="{{ post.url }}" title="{{ post.title }}"><h2 class= "post-title text-dark">{{ post.title }}</h2></a>
+						<span class = "post-meta">{{ post.date | date_to_string }}</span> &raquo; 
+						<p class = "post-subtitle">{{ post.excerpt }} {% endfor %}</p>
+						</li>	
+					</div>
+			</div>
+		</ul>
 	</div>
-
 </div>
 
+
+
+
     
-</ul>
+
